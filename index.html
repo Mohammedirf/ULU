@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="icon" href="images/ulu.ico">
+
+  <title>ULU - Task Management</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrp CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Styles CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/aae4a62760.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-dark navbar-expand-md">
+        <a class="navbar-brand" href="#"><img src="images/logo-white.png" width=90 height=30 alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class="main-heading col-lg-6">
+          <h1 class="h1-main">Task Management gets easier than ever</h1>
+          <button class="download btn btn-light btn-lg" type="button"> <i class="fab fa-apple"></i>Download</button>
+          <button class="download btn btn-outline-light btn-lg" type="button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="img col-lg-6">
+          <img class="main-img" src="images/hero.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container second-container">
+      <div class="row second-row">
+        <div class="features col-lg-4">
+          <i class="icon-features far fa-check-circle fa-4x"></i>
+          <h3 class="h3-features">Easy to use</h3>
+          <p>So easy to use, even your dog could do it</p>
+        </div>
+        <div class="features col-lg-4">
+          <i class="icon-features fas fa-bullseye fa-4x"></i>
+          <h3 class="h3-features">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs</p>
+        </div>
+        <div class="features col-lg-4">
+          <i class="icon-features far fa-heart fa-4x"></i>
+          <h3 class="h3-features">Guaranteed to work</h3>
+          <p>Find the love of your dog's life or your money back</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <div class="third-container">
+    <section id="testimonials">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="h2-testimonial">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="img-testimonial" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="h2-testimonial">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="img-testimonial" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="img-accredition" src="images/techcrunch.png" alt="tc-logo">
+      <img class="img-accredition" src="images/tnw.png" alt="tnw-logo">
+      <img class="img-accredition" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="img-accredition" src="images/mashable.png" alt="mashable-logo">
+
+    </section>
+  </div>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Inidividual</h2>
+    <p>Simple and affordable price plans for your needs.</p>
+
+    <div class="row pricing justify-content-center">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="h3-features">Startup</h3>
+        </div>
+        <div class="card-body">
+          <h2>FREE</h2>
+          <p>5 Users</p>
+          <p>10 Projects</p>
+          <p>Unlimited App Usage</p>
+          <button type="button" class="btn btn-outline-primary btn-lg btn-block">Sign Up</button>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="h3-features">SME</h3>
+        </div>
+        <div class="card-body">
+          <h2>10 US$ /mo</h2>
+          <p>10 Users</p>
+          <p>Unlimited Projects</p>
+          <p>Unlimited App Usage</p>
+          <button type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+<div class="col-lg-3">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="h3-features">ENTERPRISE</h3>
+        </div>
+        <div class="card-body">
+          <h2>25 US$</h2>
+          <p>50 Users</p>
+          <p>Unlimited Projects</p>
+          <p>On-Call support</p>
+          <button type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="container-fluid fourth-container">
+      <h3 class="h1-main">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="download btn btn-light btn-lg" type="button"> <i class="fab fa-apple"></i>Download</button>
+      <button class="download btn btn-outline-light btn-lg" type="button"><i class="fab fa-google-play"></i> Download</button>
+
+    <footer id="footer">
+
+      <div class="footer">
+        <p>© Copyright 2018 Ulu</p>
+      </div>
+    </footer>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+
+</body>
+
+</html>

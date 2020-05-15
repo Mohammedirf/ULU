@@ -1,0 +1,180 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2, h3, h4, h5, h6{
+  font-family: Montserrat-bold, serif;
+}
+
+/* Headings */
+
+.h2-testimonial{
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #E2E1DB;
+}
+
+.h1-main{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #E2E1DB;
+}
+
+.h3-features{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #163f3e;
+}
+
+.h3-features-light{
+  font-family: Montserrat-black, serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #E2E1DB;
+}
+
+/* First Container */
+
+#title{
+  background-color: #163f3e;
+}
+
+.navbar{
+  padding: 0 0 4rem 0;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.main-img {
+  width: 70%;
+  transform: rotate(25deg);
+  z-index: 0;
+  position: absolute;
+  right:10%;
+}
+
+.main-heading {
+  text-align: left;
+}
+
+@media (max-width:992px){
+  .main-img {
+    width: 40%;
+    z-index: 0;
+    position:static;
+    transform: rotate(0);
+  }
+
+  .main-heading {
+    text-align: center;
+  }
+}
+
+.container-fluid{
+  padding : 1% 3% 7%;
+}
+
+.fab{
+margin-right: 5px;
+}
+
+/* Donload Button */
+
+.download{
+  margin: 3% 2% 0 0;
+  font-family: Montserrat;
+}
+
+/* second container */
+
+.second-container{
+  padding : 12% 3%;
+  background-color: #fff;
+}
+
+
+#features{
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.features{
+  padding-bottom: 15px;
+}
+
+.icon-features{
+  color: teal;
+  margin-bottom: 1rem;
+}
+
+.icon-features:hover{
+  color: #163f3e;
+}
+
+
+
+/* third container */
+
+#testimonials{
+  padding-bottom: 5%;
+}
+.third-container{
+  padding : 10% 3%;
+  background-color: teal;
+  color: #fff;
+}
+
+
+
+.img-testimonial{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.img-accredition{
+  width: 13%;
+  margin: 10px;
+}
+
+.carousel-item{
+  padding: 0 10%;
+}
+
+/* pricing */
+
+.card{
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#pricing{
+  padding: 8% 3%;
+}
+
+/* cta */
+.fourth-container{
+  background-color: #163f3e;
+  padding: 8% 3% 1% 3%;
+}
+
+.footer{
+  padding-top: 3%;
+  color: #E2E1DB;
+}
